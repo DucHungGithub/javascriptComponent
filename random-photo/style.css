@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px white;
+    width: 300px;
+    height: 300px;
+}
+
+.btn {
+    background-color: orangered;
+    color: whitesmoke;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px gray;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
